@@ -1,13 +1,13 @@
 export default class MicroWorker {
-	constructor() {
+  constructor() {
 
-	}
-	_handleCall(message) {
-		let result = this.handleCall(message, this.state)
-		this.state = result.state;
-		return result.reply;
-	}
-	handleCall() {
+  }
+  _handleCall(message) {
+    let result = this.handleCall(message, this.state)
+    this.state = result.state;
+    return result.reply;
+  }
+  handleCall() {
 
-	}
+  }
 }
